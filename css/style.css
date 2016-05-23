@@ -1,0 +1,116 @@
+html {
+	background: #f7f7f7 url('face.jpg') no-repeat bottom left fixed; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-weight: 200;
+	font-size: 12pt;
+	color: black;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+	margin-top: 4%;
+	margin-right: 3%;
+	padding: 10px;
+	float: right;
+}
+
+p, a, li, h1, h2 {
+	width: 90%;
+	max-width: 600px;
+	color: black;
+}
+
+p, ul {
+	margin: 20px 0;
+}
+
+a, a:hover, a:visited, a:active {
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	font-size: 16pt;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 14pt;
+	font-weight: 400;
+}
+
+.footer {
+	font-size: 8pt;
+	margin-top: 40px;
+}
+
+/*Following part is copied from stangenative. Please let me know if there is copyright violation.*/
+@media only screen and (max-width: 1100px) {
+	html {
+		background: #f7f7f7;
+	}
+
+	body {
+		padding-top: 20px;
+		margin: 0 5%;
+	}
+	
+	p, a, li, h1, h2 {
+		width: 100%;
+		margin: 16px auto;
+	}
+	
+	li {
+		margin: 8px auto 0;
+	}
+	
+	h2 {
+		margin: 40px auto 16px;
+	}
+	
+	h1:before {
+		background: #f7f7f7 url('face.jpg') top center no-repeat;
+		background-size: contain;
+		content: "";
+		display: block;
+		height: 350px;
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+	body {
+		font-size: 28pt;
+	}
+	
+	p, a, li, h1, h2 {
+		max-width: none;
+	}
+	
+	h1 {
+		font-size: 40pt;
+	}
+	
+	h2 {
+		font-size: 22pt;
+	}
+	
+	ul {
+		font-size: 20pt;
+	}
+		
+	h1:before {
+		height: 700px;
+	}
+}
