@@ -55,8 +55,9 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Learn from yesterday, live for today, hope for tomorrow."
+  - text: "The important thing is not to stop questioning."
+  - text: "-- Albert Einstein"
 
 me-img: "/img/author.png"
 
