@@ -32,7 +32,7 @@ lang: "en"
 author: "Xiaoru (David) Guo"
 title: "{ Xiaoru (David) Guo }"
 description: "Personal website of Xiaoru (David) Guo. A place for you to know me."
-keywords: "xiaoru, david, guo, dssc, psc, solar cell, energy, engineering, science, graphene, carbon, material"
+keywords: "xiaoru, david, guo, semiconductor, dssc, psc, solar cell, energy, engineering, science, graphene, carbon, material"
 favicon: "/img/favicon.ico"
 
 ################
@@ -103,7 +103,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "xiaoruguo"
+disqus-shortname: "xiaoru-david-guo"
 
 syntax-highlight: True
 
@@ -140,7 +140,7 @@ email: "me@guoxr.net"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Xiaoru (David) Guo is a Ph.D. student from University of Wisconsin-Milwaukee. He works on solar cells and interests in lithium-ion batteries, 3D printing, capacitive deionization and more."
+author_blurb: "Xiaoru (David) Guo is a Ph.D. student from University of Wisconsin-Milwaukee. He works on nanomaterials and semiconductors for energy and environmental applications."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -180,7 +180,7 @@ keybase-in-footer: False
 pages_list:
   About: 'about'
   #Blog: 'latest-post'
-  Timeline: 'timeline'
+  #Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
